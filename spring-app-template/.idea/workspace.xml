@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92e4e864-80b8-4c66-a173-46e7b46d74c6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/AppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/components/SaveEndpoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/config/JsonWebToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/config/PageableConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/config/SecurityRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/controllers/AdviceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/controllers/PermissionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/controllers/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/auth/LoginDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/auth/UpdatePasswordDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/permission/AssingPermissionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/permission/PermissionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/response/AuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/response/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/response/Pagination.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/response/PaginationMeta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/role/RoleDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/user/UpdateProfileDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/user/UserCreateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/dto/user/UserUpdateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/entities/Permission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/entities/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/entities/RolePermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/entities/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/entities/impl/RolePermissionId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/exceptions/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/exceptions/ConfictException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/exceptions/ForbiddenException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/exceptions/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/exceptions/ServerException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/exceptions/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/filters/DynamicAuthorizationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/filters/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/repositories/PermissionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/repositories/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/services/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/services/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/app/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/server/app/AppApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NesjsjsjsjsjsA"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NesjsjsjsjsjsA/-N-Capas-01-26-proyectoSistemaFinancieroAvanzado.git",
+    "accountId": "ab2bfac6-beed-4b30-9513-32c76aad5f5c"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3EC9hwiCCr7rWHIQ39GZ2JvgIc5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.AppApplication.executor": "Run",
+    "Spring Boot.Spring Boot.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/alejandroayala/Documents/ArchU/Programming/N-Capas/Labos/-N-Capas-01-26-proyectoSistemaFinancieroAvanzado/spring-app-template",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="CORS_ALLOWED_ORIGINS" value="http://localhost:5173,http://localhost:3000" />
+        <env name="SECURITY_JWT_EXPIRATION_TIME" value="86400000" />
+        <env name="SECURITY_JWT_SECRET_KEY" value="344325345452463H546GUYTREGARGLIUWQHTIHQ34D8QWTFEW7YJ509YWT039NYT907ND3T93" />
+        <env name="SERVER_PORT" value="4000" />
+        <env name="SPRING_APPLICATION_NAME" value="spring-app" />
+        <env name="SPRING_DATA_WEB_PAGEABLE_ONE_INDEXED_PARAMETERS" value="true" />
+        <env name="SPRING_DATASOURCE_DRIVER_CLASS_NAME" value="org.postgresql.Driver" />
+        <env name="SPRING_DATASOURCE_PASSWORD" value="12345678" />
+        <env name="SPRING_DATASOURCE_URL" value="jdbc:postgresql://localhost:5432/spring" />
+        <env name="SPRING_DATASOURCE_USERNAME" value="postgres" />
+        <env name="SPRING_JPA_HIBERNATE_DDL_AUTO" value="update" />
+        <env name="SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT" value="org.hibernate.dialect.PostgreSQLDialect" />
+        <env name="SPRING_JPA_SHOW_SQL" value="false" />
+      </envs>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.server.app.AppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.server.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92e4e864-80b8-4c66-a173-46e7b46d74c6" name="Changes" comment="" />
+      <created>1779671808200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779671808200</updated>
+      <workItem from="1779671810257" duration="8000" />
+      <workItem from="1779671833415" duration="5000" />
+      <workItem from="1781461513669" duration="2414000" />
+      <workItem from="1781514534855" duration="200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
